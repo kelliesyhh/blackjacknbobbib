@@ -11,7 +11,7 @@
     "react-confetti": "^6.0.1",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
-    "react-scripts": "1.0.17",
+    "react-scripts": "2.x.x",
     "react-use-window-size": "^1.0.1"
   },
   "scripts": {
@@ -21,5 +21,11 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
